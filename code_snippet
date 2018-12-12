@@ -1,3 +1,5 @@
+```php
+
 // 生成器读取文件 可限制读取行数
 function getLines($file)
 {
@@ -16,3 +18,4 @@ foreach (getLines("file.txt") as $n => $line)
     if ($n > 5) break;
     echo $line;
 }
+```
